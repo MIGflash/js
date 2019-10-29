@@ -8,9 +8,9 @@ if (num % 2 === 0){
 let n = 8.5;
 let m = 11.45;
 if (n < m){
-   console.log("Ближайщее число к 10 = " + m);
+   console.log("Ближайщее число к 10 это " + m);
    }else {
-  console.log("Ближайшее число к 10 = " + n);
+  console.log("Ближайшее число к 10 это " + n);
   }
 
 let height = 30; 
@@ -19,7 +19,7 @@ let length = 50;
 area = (height * length + height * width + length * width ) * 2;
 	console.log(area);
 	if (height < width) {
-		console.log ("Ширина больше");
+		console.log ("Ширина больше высоты");
 	} else {
-		console.log ("Высота больше");
+		console.log ("Высота больше ширины");
 	}
